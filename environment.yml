@@ -1,0 +1,21 @@
+name: cruelty-free-cosmetics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.10
+  - flask=3.0.3
+  - pandas=2.2.2
+  - numpy=1.26.4
+  - scikit-learn=1.5.1
+  - xgboost=2.1.2
+  - gunicorn  # Added Gunicorn to the dependencies
+  - matplotlib=3.9.2
+  - ipykernel=6.29.5  # Added ipykernel for Jupyter
+  - seaborn=0.13.2    # Added seaborn for visualizations
+  - statsmodels=0.14.2 # Added statsmodels for statistical models
+  - pip
+  - pip:
+    - pickle-mixin
+
+

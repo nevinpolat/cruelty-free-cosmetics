@@ -1,0 +1,28 @@
+2024-11-26 03:30:18,721 INFO root MainThread : Feature names loaded successfully.
+2024-11-26 03:30:19,369 INFO root MainThread : Successfully loaded model: models/linear_regression_model.pkl
+2024-11-26 03:30:19,401 INFO root MainThread : Successfully loaded model: models/decision_tree_model.pkl
+2024-11-26 03:30:19,437 INFO root MainThread : Successfully loaded model: models/random_forest_model.pkl
+2024-11-26 03:30:19,437 ERROR root MainThread : Model file 'models/xgboost_model_1.pkl' not found in 'models' directory.
+2024-11-26 03:30:19,437 ERROR root MainThread : Model file 'models/xgboost_model_2.pkl' not found in 'models' directory.
+2024-11-26 03:30:19,437 ERROR root MainThread : Model file 'models/xgboost_model_3.pkl' not found in 'models' directory.
+2024-11-26 03:30:19,451 INFO root MainThread : Successfully loaded model: models/tuned_random_forest_model.pkl
+2024-11-26 03:30:19,549 INFO root MainThread : Successfully loaded model: models/tuned_xgboost_model.pkl
+2024-11-26 03:30:19,836 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-26 03:30:19,836 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-11-26 03:30:19,853 INFO werkzeug MainThread :  * Restarting with stat
+2024-11-26 03:30:20,516 INFO root MainThread : Feature names loaded successfully.
+2024-11-26 03:30:21,178 INFO root MainThread : Successfully loaded model: models/linear_regression_model.pkl
+2024-11-26 03:30:21,208 INFO root MainThread : Successfully loaded model: models/decision_tree_model.pkl
+2024-11-26 03:30:21,243 INFO root MainThread : Successfully loaded model: models/random_forest_model.pkl
+2024-11-26 03:30:21,244 ERROR root MainThread : Model file 'models/xgboost_model_1.pkl' not found in 'models' directory.
+2024-11-26 03:30:21,244 ERROR root MainThread : Model file 'models/xgboost_model_2.pkl' not found in 'models' directory.
+2024-11-26 03:30:21,244 ERROR root MainThread : Model file 'models/xgboost_model_3.pkl' not found in 'models' directory.
+2024-11-26 03:30:21,258 INFO root MainThread : Successfully loaded model: models/tuned_random_forest_model.pkl
+2024-11-26 03:30:21,409 INFO root MainThread : Successfully loaded model: models/tuned_xgboost_model.pkl
+2024-11-26 03:30:21,645 WARNING werkzeug MainThread :  * Debugger is active!
+2024-11-26 03:30:21,656 INFO werkzeug MainThread :  * Debugger PIN: 640-666-124
+2024-11-26 03:31:13,214 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Nov/2024 03:31:13] "GET /features HTTP/1.1" 200 -
+2024-11-26 03:33:05,845 INFO root Thread-3 (process_request_thread) : Received features: ['CFC_Lag3', 'Save_Ralph_Campaign', 'cruelty_free_cosmetics', 'elf', 'week']
+2024-11-26 03:33:05,887 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Nov/2024 03:33:05] "POST /predict HTTP/1.1" 200 -
+2024-11-26 03:42:45,030 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Nov/2024 03:42:45] "GET / HTTP/1.1" 200 -
