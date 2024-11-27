@@ -300,7 +300,9 @@ If "Cruelty-Free Makeup" and "Cruelty-Free Skincare" have very similar trends (i
 ---
 
 ### 4.4. Final Feature Set Preparation
-The final dataset should include only the most relevant features. After removing highly correlated and redundant features, we are left with the following key features for model training:
+The final dataset should include only the most relevant features. After removing highly correlated and redundant features, we are left with the 
+
+![alt text](image-5.png)
 
 | **Feature**             | **VIF**       |
 |-------------------------|---------------|
